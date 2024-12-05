@@ -1,0 +1,147 @@
+/* Links Styling */
+a {
+  text-decoration: none; /* Remove underline */
+  color: rgb(255, 200, 0); /* Color for unvisited links */
+}
+a:visited {
+  color: green; /* Color for visited links */
+}
+a:hover {
+  color: hotpink; /* Color on hover */
+}
+
+/* General layout styles */
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-form {
+  border: 1px solid #a6d49f;
+  font-size: 18px;
+  padding: 20px 30px;
+  background-color: rgb(252, 252, 252);
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  margin: 10px 0;
+  width: 100%;
+}
+
+/* Button styling */
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #c59849;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #9e7d38;
+}
+
+/* Body Styling */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+  background-color: #f8f9fa;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  align-items: center; /* Vertically align items */
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.logo {
+  height: 50px;
+}
+
+/* Navigation styles */
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  margin: 0 15px;
+}
+
+.nav a:hover {
+  color: #007bff;
+}
+
+/* Error messages */
+.error {
+  color: red;
+  font-size: small;
+  margin-top: 5px;
+}
+
+/* Footer styling */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9cb380;
+  height: 100px;
+  color: #522a27;
+  font-weight: bolder;
+}
+
+/* Container for pages */
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Styling for post and user image */
+.userImage, .postUserImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* Post Styling */
+.postsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  padding: 20px;
+  border: 1px solid rgb(244, 241, 241);
+  margin-top: 10px;
+}
+
+.postMsg {
+  padding: 20px;
+  background-color: rgb(236, 238, 236);
+  border-radius: 10px;
+}
+
+.postByName {
+  font-weight: bold;
+}
+
+.likes {
+  padding: 5px;
+}
